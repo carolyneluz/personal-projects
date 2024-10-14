@@ -1,0 +1,36 @@
+<%= form_with model: @movie, local: true do |form| %>
+    <p>
+      <%= form.label :title, 'Título' %><br>
+      <%= form.text_field :title %>
+    </p>
+  
+    <p>
+      <%= form.label :release_year, 'Ano de Lançamento' %><br>
+      <%= form.number_field :release_year %>
+    </p>
+  
+    <p>
+      <%= form.label :duration, 'Duração (minutos)' %><br>
+      <%= form.number_field :duration %>
+    </p>
+  
+    <p>
+      <%= form.label :director_id, 'Diretor' %><br>
+      <%= form.collection_select :director_id, Director.all, :id, :name %>
+    </p>
+  
+    <p>
+      <%= form.label :genre_id, 'Gênero' %><br>
+      <%= form.collection_select :genre_id, Genre.all, :id, :name %>
+    </p>
+  
+    <p>
+      <%= form.label :synopsis, 'Sinopse' %><br>
+      <%= form.text_area :synopsis %>
+    </p>
+  
+    <p>
+      <%= form.submit %>
+    </p>
+  <% end %>
+  

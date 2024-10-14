@@ -1,0 +1,16 @@
+<h1>Novo Gênero</h1>
+
+<%= form_with model: @genre, local: true do |form| %>
+  <p>
+    <%= form.label :name, 'Nome do Gênero' %><br>
+    <%= form.text_field :name %>
+  </p>
+
+  <p>
+    <%= form.submit 'Criar Gênero' %>
+  </p>
+<% end %>
+
+<a href="/genres">Voltar para Gêneros</a>
+
+

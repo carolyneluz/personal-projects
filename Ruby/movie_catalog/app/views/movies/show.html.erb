@@ -1,0 +1,9 @@
+<h1><%= @movie.title %></h1>
+<p><strong>Ano:</strong> <%= @movie.release_year %></p>
+<p><strong>Duração:</strong> <%= @movie.duration %> minutos</p>
+<p><strong>Diretor:</strong> <%= link_to @movie.director.name, director_path(@movie.director) %></p>
+<p><strong>Gênero:</strong> <%= link_to @movie.genre.name, genre_path(@movie.genre) %></p>
+<p><strong>Sinopse:</strong> <%= @movie.synopsis %></p>
+
+<%= link_to 'Editar Filme', edit_movie_path(@movie) %> |
+<%= link_to 'Todos os Filmes', movies_path %>

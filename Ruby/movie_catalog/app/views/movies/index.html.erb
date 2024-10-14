@@ -1,0 +1,11 @@
+<h1>Catálogo de filmes</h1>
+
+<%= link_to 'Adicionar filme', new_movie_path %>
+
+<ul>
+  <% @movies.each do |movie| %>
+    <li>
+      <%= link_to movie.title, movie_path(movie) %> - <%= movie.release_year %>
+    </li>
+  <% end %>
+</ul>
