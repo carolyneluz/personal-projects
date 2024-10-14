@@ -53,30 +53,3 @@ Essa aplicação, desenvolvida em Ruby on Rails, permite gerenciar e visualizar 
     ```
     http://localhost:3000
     ```
-
-## Testes
-
-Para rodar a suíte de testes, utilize o seguinte comando:
-
-```bash
-rails test
-```
-## Certifique-se de que o banco de dados de testes esteja configurado corretamente nos arquivos de configuração em config/database.yml.
-
-## Desenvolvimento
-Crie uma branch para suas modificações:
-
-```bash
-git checkout -b feature/nova-funcionalidade
-```
-Após desenvolver, faça o commit das suas alterações:
-
-```bash
-git commit -m "Descrição das alterações"
-```
-Envie sua branch para o repositório remoto:
-
-```bash
-git push origin feature/nova-funcionalidade
-```
-Abra um Pull Request para revisão.
