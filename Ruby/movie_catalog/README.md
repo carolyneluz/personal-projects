@@ -1,5 +1,6 @@
 Movie Catalog
-Movie Catalog é uma aplicação desenvolvida em Ruby on Rails que permite gerenciar e visualizar um catálogo de filmes. O sistema permite cadastrar, editar e listar gêneros de filmes, diretores e os próprios filmes, além de associar diretores a filmes e gêneros. A aplicação também permite ver detalhes de cada filme, listar filmes por gênero e diretor.
+
+Essa aplicação desenvolvida em Ruby on Rails permite gerenciar e visualizar um catálogo de filmes. O sistema permite cadastrar, editar e listar gêneros de filmes, diretores e os próprios filmes, além de associar diretores a filmes e gêneros. A aplicação também permite ver detalhes de cada filme, listar filmes por gênero e diretor.
 
 Funcionalidades
 Cadastrar e editar gêneros: Registre e edite os gêneros dos filmes (ação, comédia, drama, etc.).
