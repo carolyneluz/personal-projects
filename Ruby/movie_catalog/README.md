@@ -23,7 +23,7 @@ Essa aplicação, desenvolvida em Ruby on Rails, permite gerenciar e visualizar 
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/carolyneluz/personal-projects
     cd movie_catalog
     ```
 
