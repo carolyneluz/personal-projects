@@ -1,4 +1,4 @@
-# Movie Catalog
+# Catálogo de filmes
 
 Essa aplicação, desenvolvida em Ruby on Rails, permite gerenciar e visualizar um catálogo de filmes. O sistema permite cadastrar, editar e listar gêneros de filmes, diretores e os próprios filmes, além de associar diretores a filmes e gêneros. A aplicação também permite ver detalhes de cada filme, listar filmes por gênero e diretor.
 
