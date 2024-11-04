@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Palevá é um sistema de gestão para restaurantes que trabalham no modelo de take-away, permitindo que funcionários cadastrem pratos, organizem
+cardápios e gerenciem pedidos para retirada no local. Esse sistema foi projetado para ser usado exclusivamente pelos funcionários do
+estabelecimento, não permitindo acesso aos clientes finais.
 
-Things you may want to cover:
+* Ruby version: 3.1.2
 
-* Ruby version
+* Rails version: 7.2.1.1
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Banco de dados: SQLite
