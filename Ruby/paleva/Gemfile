@@ -18,6 +18,10 @@ gem "stimulus-rails"
 gem "tailwindcss-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+# Validação de CPF/CNPJ
+gem "cpf_cnpj"
+# Gerenciamento de senhas seguras com has_secure_password
+gem 'bcrypt', '~> 3.1.7'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
